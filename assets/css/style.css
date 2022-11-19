@@ -190,14 +190,13 @@ img {
 @media (max-width: 960px){
     .nav__menu {
         position: absolute;
-        top: 0;
+        top: 20px;
         right: -100%;
         width: 50%;
         height: 100vh;
         text-align: right;
         padding: 0 2rem;
         background-color: var(--container-color);
-        border-radius: 150px 0 0 0;
         box-shadow: -10px -8px 4px rgba(0, 0, 0, 0.1);
         z-index: var(--z-tooltip);
         transition: 0.4s;
@@ -259,5 +258,94 @@ img {
 .nav__toggle:hover {
     background-color: var(--first-color);
     color: var(--light-color);
+}
 
-/* 
+/*-- home --*/
+.home__container {
+    padding: 2rem 1rem;
+}
+
+.home__data {
+    text-align: center;
+    margin-bottom: var(--mb-3);
+}
+
+.home__title {
+    font-size: var(--h1-font-size);
+    color: var(--text-color);
+}
+
+.home__title span {
+    font-family: var(--font-logo);
+    font-size: var(--big-font-size);
+    letter-spacing: 4px;
+    background: linear-gradient(to right, #2B9348 0%, #80B918 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home__subtitle {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+    margin-bottom: var(--mb-5);
+}
+
+.home__btn {
+    padding: 0 3rem;
+}
+
+.home__btn a {
+    margin-bottom: 1rem;
+}
+
+/* Sobre */
+.about__container {
+    padding: 0 2rem;
+}
+
+.about__chefs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: var(--mb-3);
+}
+
+.chefs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chefs .img__chefs {
+    width: 180px;
+    border-radius: 100%;
+    transition: 0.4s;
+}
+
+.chefs .img__chefs:hover {
+    transform: scale(1.1);
+}
+
+.chefs span {
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+
+.about__data {
+    margin-top: var(--mb-4);
+    background-color: var(--light-color);
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.about__data .section-text {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    line-height: 32px;
+}
