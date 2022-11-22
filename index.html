@@ -1,95 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pizza App</title>
 
-    <link rel="shortcut icon" href="/img/pizza-solid.png" type="image/x-icon" />
-    <!-- Box Icons -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <!-- CSS Custom -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza App</title>
 
-  <body>
-    <!-- Header -->
-    <header class="header" id="header">
-      <!-- Nav -->
-      <nav class="nav bd-container">
-        <h1><a href="#" class="logo">PizzaApp</a></h1>
+  <link rel="shortcut icon" href="/img/pizza-solid.png" type="image/x-icon" />
+  <!-- Box Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!-- CSS Custom -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
 
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-            <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
-            <li class="nav__item"><a href="#cardapio" class="nav__link">Cardápio</a></li>
-            <li class="nav__item"><a href="#delivery" class="nav__link">Delivery</a></li>
-            <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
-            <li class="nav__item"><a href="#" class="btn">RESERVA</a></li>
-          </ul>
-        </div>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <!-- Nav -->
+    <nav class="nav bd-container">
+      <h1><a href="#" class="logo">PizzaApp</a></h1>
 
-        <!-- Menu Toggle -->
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu-alt-right" id="nav-toggle"></i>
-        </div>
-      </nav>
-    </header>
-
-    <!-- Main -->
-    <main>
-      <!-- Home -->
-      <section class="home" id="home">
-        <div class="home__container bd-container bd-grid">
-            <div class="home__data">
-                <h1 class="home__title">Bem vindo a <span class="logo">PizzApp</span></h1>
-                <h2 class="home__subtitle">Qualidade e variadades</h2>
-                <div class="home__btn">
-                    <a href="" class="btn">FAÇA SUA RESERVA</a>
-                    <a href="" class="btn-outline">PEÇA POR DELIVERY</a>
-                </div>
-            </div>
-            <img src="/assets/img/pizza-principal.png" alt="pizza principal" class="home__img">
-        </div>
-      </section>
-
-<!-- Sobre -->
-<section class="about bg-container section" id="sobre">
-  <h1 class="section-title">Sobre</h1>
-  <h2 class="section-subtitle">Dois chefs apaixonados pelo culinária</h2>
-  <div class="about__container bd-container bd-grid">
-      <div class="about__chefs">
-          <div class="chefs">
-              <img src="/assets/img/chef-1.jpg" alt="Chef 1" class="img__chefs">
-              <span>Chef Paul McCartney</span>
-          </div>
-          <div class="chefs">
-              <img src="/assets/img/chef-2.jpg" alt="Chef 2" class="img__chefs">
-              <span>Chef Jimmy Page</span>
-          </div>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+          <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li class="nav__item"><a href="#cardapio" class="nav__link">Cardápio</a></li>
+          <li class="nav__item"><a href="#delivery" class="nav__link">Delivery</a></li>
+          <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+          <li class="nav__item"><a href="#" class="btn">RESERVA</a></li>
+        </ul>
       </div>
-      <div class="about__data">
+
+      <!-- Menu Toggle -->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu-alt-right" id="nav-toggle"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home__container bd-container bd-grid">
+        <div class="home__data">
+          <h1 class="home__title">Bem vindo a <span class="logo">PizzApp</span></h1>
+          <h2 class="home__subtitle">Qualidade e variadades</h2>
+          <div class="home__btn">
+            <a href="" class="btn">FAÇA SUA RESERVA</a>
+            <a href="" class="btn-outline">PEÇA POR DELIVERY</a>
+          </div>
+        </div>
+        <img src="/assets/img/pizza-principal.png" alt="pizza principal" class="home__img">
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="about bg-container section" id="sobre">
+      <h1 class="section-title">Sobre</h1>
+      <h2 class="section-subtitle">Dois chefs apaixonados pelo culinária</h2>
+      <div class="about__container bd-container bd-grid">
+        <div class="about__chefs">
+          <div class="chefs">
+            <img src="/assets/img/chef-1.jpg" alt="Chef 1" class="img__chefs">
+            <span>Chef Paul McCartney</span>
+          </div>
+          <div class="chefs">
+            <img src="/assets/img/chef-2.jpg" alt="Chef 2" class="img__chefs">
+            <span>Chef Jimmy Page</span>
+          </div>
+        </div>
+        <div class="about__data">
           <p class="section-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been
-              the industry's standard dummy text ever since the 1500s</p>
+            Lorem Ipsum has been
+            the industry's standard dummy text ever since the 1500s</p>
           <p class="section-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </p>
           <p class="section-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been
-              the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+            Lorem Ipsum has been
+            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
           </p>
+        </div>
       </div>
-  </div>
-</section>
-      
-    </main>
+    </section>
 
-    <!-- JavaScript -->
-    <script src="/assets/js/script.js"></script>
-  </body>
+    <!-- Cardápio -->
+    section class="cardapio section" id="cardapio">
+    <h1 class="section-title">Cardápio</h1>
+    <h2 class="section-subtitle">Menu da semana</h2>
+    <div class="cardapio__container bd-container bd-grid">
+      <div class="card">
+        <div class="card__img">
+          <img src="assets/img/salada-1.jpg" alt="Salada Primavera">
+        </div>
+        <div class="card__data">
+          <h3>Salada Primavera</h3>
+          <div class="card__descripition">
+            <small>Tomate Pão Azeitonas Manjericão</small>
+          </div>
+        </div>
+        <div class="card__preci">
+          <span>R$ 22,00</span>
+        </div>
+        <i class='bx bxs-cart card__cart'></i>
+      </div>
+
+      <div class="card">
+        <div class="card__img">
+          <img src="assets/img/salada-2.jpg" alt="Salada Green">
+        </div>
+        <div class="card__data">
+          <h3>Salada Green </h3>
+          <div class="card__descripition">
+            <small>Tomate Cebola Alface Manjericão</small>
+          </div>
+        </div>
+        <div class="card__preci">
+          <span>R$ 16,00</span>
+        </div>
+        <i class='bx bxs-cart card__cart'></i>
+      </div>
+
+      <div class="card">
+        <div class="card__img">
+          <img src="assets/img/salada-3.jpg" alt="Salada Green">
+        </div>
+        <div class="card__data">
+          <h3>Salada Hot</h3>
+          <div class="card__descripition">
+            <small>Alface De Cordeiro Rúcula</small>
+          </div>
+        </div>
+        <div class="card__preci">
+          <span>R$ 16,00</span>
+        </div>
+        <i class='bx bxs-cart card__cart'></i>
+      </div>
+
+      <div class="card">
+        <div class="card__img">
+          <img src="assets/img/salada-2.jpg" alt="Salada Fit">
+        </div>
+        <div class="card__data">
+          <h3>Salada Fit</h3>
+          <div class="card__descripition">
+            <small>Alface Tomate Cenoura Cebola</small>
+          </div>
+        </div>
+        <div class="card__preci">
+          <span>R$ 18,50</span>
+        </div>
+        <i class='bx bxs-cart card__cart'></i>
+      </div>
+    </div>
+    </section>
+
+
+
+  </main>
+
+  <!-- JavaScript -->
+  <script src="/assets/js/script.js"></script>
+</body>
+
 </html>
