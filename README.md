@@ -4,6 +4,8 @@
 
 - [Descrição do projeto](#descrição-do-projeto)
 
+- [Objetivos do projeto](#objetivos-do-projeto)
+
 - [Desenvolvimento](#desenvolvimento)
 
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
