@@ -27,11 +27,11 @@ Desenvolver um projeto em grupo utilizando ferramentas de versionamento de cógi
 
 Explicação com GIF:
 
-Desktop
+## Desktop
 
 ![PizzApp Desktop](https://user-images.githubusercontent.com/67832656/203660476-0ab9065b-61cf-4899-b505-f52fdd1842b5.gif)
 
-Mobile:
+## Mobile
 
 ![PizzApp Mobile](https://user-images.githubusercontent.com/67832656/203660501-93659407-a65e-4015-990d-bdde5d4c9221.gif)
 
