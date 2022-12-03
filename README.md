@@ -42,4 +42,4 @@ Explicação com GIF:
 ## Ferramentas utilizadas
 - HTML
 - CSS 
-- JavaScrip 
+- JavaScript 
