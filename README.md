@@ -16,7 +16,7 @@
 Júlio César e Luís Heleno.
 
 ## Descrição do projeto
-O objetivo do projeto vou desenvolver um projeto de um site e-commerce como o tema de pizzaria, com menu hambúrguer e responsivo.
+O Neste projeto desenvolvemos um site responsivo como o tema de pizzaria com menu hambúrguer.
 
 ## Objetivos do projeto
 Desenvolver um projeto em grupo utilizando ferramentas de versionamento de cógido.
