@@ -16,7 +16,7 @@
 Júlio César e Luís Heleno.
 
 ## Descrição do projeto
-O Neste projeto desenvolvemos um site responsivo como o tema de pizzaria com menu hambúrguer.
+Neste projeto desenvolvemos um site responsivo como o tema de pizzaria com menu hambúrguer.
 
 ## Objetivos do projeto
 Desenvolver um projeto em grupo utilizando ferramentas de versionamento de cógido.
